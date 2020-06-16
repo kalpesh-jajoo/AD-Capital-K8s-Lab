@@ -28,17 +28,6 @@ phases:
     steps:
     - type: K8S_DEPLOYMENT_ROLLING
       name: Rollout Deployment
-    - type: APP_DYNAMICS
-      name: AppDynamics
-      properties:
-        analysisServerConfigId: KnYNKa03R2u4MKD63JYjhg
-        analysisTolerance: LOW
-        applicationId: '9'
-        comparisonStrategy: COMPARE_WITH_PREVIOUS
-        executeWithPreviousSteps: false
-        hostnameTemplate: ${host.hostName}
-        tierId: '14'
-        timeDuration: '10'
     stepsInParallel: false
   - type: K8S_PHASE_STEP
     name: Verify
