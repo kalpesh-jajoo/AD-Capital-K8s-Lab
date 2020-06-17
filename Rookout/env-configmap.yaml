@@ -4,7 +4,7 @@ data:
   APPD_DIR: /appdynamics
   APPD_ES_HOST: "https://analytics.api.appdynamics.com"
   APPD_ES_PORT: "9080"
-  APPD_ES_SSL: "false"
+  APPD_ES_SSL: "true"
   APPD_EVENT_ACCOUNT_NAME: "customer1_f1d654a0-2661-4c98-88a7-ecb5bf4e28d5"
   APPDYNAMICS_AGENT_ACCOUNT_ACCESS_KEY: ""
   APPDYNAMICS_AGENT_ACCOUNT_NAME: ""
